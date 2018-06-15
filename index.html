@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>poppy</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./dist/css/main.css">
+
+	<style type="text/css"></style>
+
+</head>
+<body>
+
+	<i>poppy</i><br>
+	<input type="checkbox" id="sw-realtime" name="_" value="_" >realtime
+
+	<div>
+		<button class="btn" id="btn-fake" style="display: none;"> fake </button>
+
+		<button class="btn" id="btn-reset" disabled> reset </button>
+		<button class="btn" id="btn-origin" disabled> origin </button>
+		<button class="btn" id="btn-preview-all" accesskey="enter" style="display: none;"> preview all </button>
+
+		<button class="btn" id="btn-undo" disabled> < undo </button>
+		<button class="btn" id="btn-redo" disabled> > redo </button>
+
+		<button class="btn btn-trick" id="base64encode"> base64 en </button>	
+		<button class="btn btn-trick" id="base64decode"> base64 de </button>
+
+		<button class="btn btn-trick" id="url-encode"> url en </button>
+		<button class="btn btn-trick" id="url-decode"> url de </button>
+
+		<button class="btn btn-trick" id="html-entity-encode"> html entity en </button>
+		<button class="btn btn-trick" id="html-entity-decode"> html entity de </button>
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+	<div id="stack-trick"></div>
+
+	<div class="tip">
+	
+	</div>
+
+	<div>
+		<textarea id="play" placeholder="Paste string here"> <<< qwe</textarea>
+	</div>
+
+	<div id="div-preview-all"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script
+	src="./dist/js/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+
+	<script src="./dist/js/main.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// $('#base64encode').click();
+		})
+		
+	</script>
+
+</body>
+</html>
