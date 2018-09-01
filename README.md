@@ -1,4 +1,4 @@
-# [poppy](https://github.com/nixni/poppy)
+# [poppy](https://github.com/kyshel/poppy)
 
 ## credits
-[nixni](https://github.com/nixni)
+[kyshel](https://github.com/kyshel)
